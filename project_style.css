@@ -4,6 +4,7 @@
     color: white;
   }
 
-  .nav-right {
+.ul justify-content-end{
     float: right;
+    display: inline-block;
   }
