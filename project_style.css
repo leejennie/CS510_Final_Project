@@ -1,10 +1,70 @@
 * {
     box-sizing: border-box;
     font-size: 1.0em;
-    color: white;
-  }
 
-.ul justify-content-end{
-    float: right;
-    display: inline-block;
-  }
+}
+
+.dropdown-item:hover {
+  background-color: #dc3545 !important;
+  color: white;
+}
+
+h1 {
+  color: #dc3545; 
+  text-align: center;
+}
+
+h3 {
+  color: #dc3545; 
+  padding-left: 35px;
+}
+
+/* Not sure if I want to implement a scroll bar for this part
+
+div.scrollmenu {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 20px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+*/
+
+div.card-deck {
+  margin: 20px;
+}
+
+div.card {
+  color: gray;
+  width: 20rem;
+}
+
+a.card-title {
+  font-weight: 700;
+  font-size: 18px; 
+}
+
+p.card-text {
+  font-size: 13px;
+}
+
+li.list-group-item {
+  font-size: 15px;
+}
+
+span.fa {
+  color: #dc3545;
+}
+
+/* Originally was going to change size of images, but the original size looks okay
+img.card-img-top {
+  height: 200px;
+  width: 100%;
+}*/
