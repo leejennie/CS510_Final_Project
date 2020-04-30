@@ -14,11 +14,15 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Used this outside library to implement the stars for the ratings -->
+
     <title>Portland Food App</title>
   </head>
   <body>
+
     <!-- navbar start code-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
       <a class="navbar-brand" href="#">PDX FOOD</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,6 +42,7 @@
               <a class="dropdown-item" href="#">Mexican</a>
               <a class="dropdown-item" href="#">Italian</a>
               <a class="dropdown-item" href="#">Mediterranean</a>
+              <a class="dropdown-item" href="#">Russian</a>
               <a class="dropdown-item" href="#">Bars</a>
             </div>
           </li>
@@ -55,6 +60,134 @@
         </ul>
       </div>
     </nav>
-    <!-- end of navbar code-->
+    <!-- end of navbar code -->
+
+    <h1> Find a restaurant that suits your taste in Portland</h1>
+    <!-- start of search bar code -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-12 col-lg-10">
+          <form class="card card-md">
+            <div class="card-body row align-items-center">
+              <div class="col">
+                <input class="form-control form-control-md" type="search" placeholder="Search for Restaurant">
+              </div>
+              <div class="col-auto">
+                <button class="btn btn-danger btn-success" type="submit">Search</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </br>
+    </br>
+    </br>
+    </br>
+    <!-- end of search bar code -->
+
+    <!-- start of best restarants -->
+    <!-- Use of card deck to create the cards for each restaurant. Repetitive code -->
+    <h3>Best Restaurants</h3> 
+    <!-- <div class="scrollmenu"> Not going implement a scroll menu for this part because it might be too much on the page-->
+      <div class="card-deck">
+        <div class="card"> <!-- images taken from Yelp in relation to the restaurant pages-->
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/fufDDtztJPLGvZvPL35UpQ/348s.jpg" class="card-img-top" alt="card-image">
+          <div class="card-body">
+            <a class="card-title" href="#" class="card-link">The Observatory</a>
+            <p class="card-text">(503)445-6284</br>8115 SE Stark Street</br>Montavilla</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> Rating: <!--star ratings -->
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star-half"></span>
+              1871
+            </li>
+            <li class="list-group-item">American</li> <!-- Type of food the restaurant serves-->
+            <li class="list-group-item">$$</li> <!-- Price range of food -->
+          </ul>
+        </div>
+        <div class="card">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/My_1QanFXN4LInD4qN4wOg/348s.jpg" class="card-img-top" alt="card-image">
+          <div class="card-body">
+            <a class="card-title" href="#" class="card-link">Tasty n Alder</a>
+            <p class="card-text">(503)621-9251</br>580 SW 12th Ave</br>Downtown</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> Rating: 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star-half"></span>
+              3883
+            </li>
+            <li class="list-group-item">American</li>
+            <li class="list-group-item">$$</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/cbijZQlGwRUbHh8qOsM1Qg/348s.jpg" class="card-img-top" alt="card-image">
+          <div class="card-body">
+            <a class="card-title" href="#" class="card-link">Malka</a>
+            <p class="card-text">(503)899-4245</br>4546 SE Division St</br>Richmond</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> Rating: 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              50
+            </li>
+            <li class="list-group-item">American</li>
+            <li class="list-group-item">$$</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/mZ77LGzsyL1TvIZtBHZjLg/348s.jpg" class="card-img-top" alt="card-image">
+          <div class="card-body">
+            <a class="card-title" href="#" class="card-link">Pok Pok</a>
+            <p class="card-text">(503)232-1387</br>3226 SE Division St</br>Clinton</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> Rating: 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              6230
+            </li>
+            <li class="list-group-item">Asian</li>
+            <li class="list-group-item">$$</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/YZVfwLwz7yLdnbQFNP6mWQ/348s.jpg" class="card-img-top" alt="card-image">
+          <div class="card-body">
+            <a class="card-title" href="#" class="card-link">G-Love</a>
+            <p class="card-text">(971)229-1043</br>31615 NW 21st Ave</br>Northwest</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> Rating: 
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star-half"></span>
+              78
+            </li>
+            <li class="list-group-item">American</li>
+            <li class="list-group-item">$$</li>
+          </ul>
+        </div>
+      </div>
+    <!-- </div> -->
+    <!-- end of best restaurant -->
   </body>
 </html>
