@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    font-size: 1.0em;
-
+  box-sizing: border-box;
+  font-size: 1.0em;
+  font-family: sans-serif;
 }
 
 .dropdown-item:hover {
@@ -19,24 +19,6 @@ h4 {
   text-align: center;
 }
 
-/* Not sure if I want to implement a scroll bar for this part
-
-div.scrollmenu {
-  background-color: white;
-  overflow: auto;
-  white-space: nowrap;
-  margin: 20px;
-}
-
-div.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-*/
-
 div.card-deck {
   margin: 20px;
 }
@@ -48,7 +30,7 @@ div.card {
 
 a.card-title {
   font-weight: 700;
-  font-size: 18px; 
+  font-size: 20px; 
 }
 
 p.card-text {
@@ -63,8 +45,3 @@ span.fa {
   color: #dc3545;
 }
 
-/* Originally was going to change size of images, but the original size looks okay
-img.card-img-top {
-  height: 200px;
-  width: 100%;
-}*/
