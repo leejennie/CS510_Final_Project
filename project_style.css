@@ -26,6 +26,7 @@ div.card-deck {
 div.card {
   color: gray;
   width: 20rem;
+  border-color: #dc3545;
 }
 
 a.card-title {
