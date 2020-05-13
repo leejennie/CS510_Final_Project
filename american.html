@@ -1,0 +1,151 @@
+<!-- This is the home page of the project-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="american_style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Used this outside library to implement the stars for the ratings -->
+
+    <title>Portland Food App</title>
+  </head>
+  <body>
+
+    <!-- navbar start code-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
+        <a class="navbar-brand" href="#">PDX FOOD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Types of Food
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">American</a>
+                <a class="dropdown-item" href="#">Asian</a>
+                <a class="dropdown-item" href="#">Mexican</a>
+                <a class="dropdown-item" href="#">Italian</a>
+                <a class="dropdown-item" href="#">Mediterranean</a>
+                <a class="dropdown-item" href="#">Russian</a>
+                <a class="dropdown-item" href="#">Bars</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Statistics</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      <!-- end of navbar code -->
+  
+      <!-- start of search bar code -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10">
+            <form class="card card-md">
+              <div class="card-body row align-items-center">
+                <div class="col">
+                  <input class="form-control form-control-md" type="search" placeholder="Search for Restaurant">
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-danger btn-success" type="submit">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="card mb-3" style="max-width: 780px;">
+      <div class="row no-gutters">
+        <div class="col-sm-3">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/fufDDtztJPLGvZvPL35UpQ/348s.jpg" class="card-img" alt="card-image">
+        </div>
+        <div class="col-sm-9">
+          <div class="card-body row">
+            <div class="col">
+              <a class="card-title" href="http://www.theobservatorypdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 1. The Observatory</a>
+              <p class="card-text-left">Rating: 
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half"></span>
+                1871<br>$$ American
+              </p>
+            </div>
+            <div class="col">
+              <p class="card-text-right">(503) 445-6284<br>8115 SE Stark Street<br>Montavilla</p>
+            </div>
+            <p class="card-body-info">Located in the Montavilla neighborhood in Southeast Portland, an environment that is sophisticated yet casual so it works for a special night out or an easy place to meet up after work. When you walk in the door, you can tell right away that staff is happy to have you there.
+                This is a great place to gather with friends, watch the game or just have a casual meal or drink. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/My_1QanFXN4LInD4qN4wOg/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.tastynalder.com" rel="noopener noreferrer" target="_blank" class="card-link"> 2. Tasty n Alder</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  3883<br>$$ American
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 621-9251</br>580 SW 12th Ave</br>Downtown</p>
+              </div>
+              <p class="card-body-info">Tasty n Alder, a John Gorham restaurant in Downtown Portland, Oregon, is a modern steakhouse featuring a fun, family-style menu of innovative dishes with diverse international origins.
+                In Tasty n Alder’s welcoming open dining space that is both urban and comfortable, a guest’s experience can be as versatile as the menu itself with seating at the lively bar, outdoor seats for the downtown 
+                Portland experience, or at a classic dining table.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+  
+
+  </body>
+</html>
