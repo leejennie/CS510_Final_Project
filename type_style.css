@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-size: 1.0em;
+  font-family: sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: #dc3545 !important;
+  color: white;
+}
+
+h2 {
+  color: #dc3545; 
+  text-align: center;
+}
+
+p.heading {
+  color: black; 
+  padding-left: 330px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+div.mb-3 {
+  margin: 0 auto; 
+  margin-bottom: 10px;
+  /*border-color: #dc3545;*/
+}
+
+a.card-title {
+  font-size: 22px; 
+  font-weight: 700;
+  color: black;
+  }
+
+span.fa {
+  color: #dc3545;
+}
+
+img.card-img {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+
+p.card-text-right {
+  text-align: right;
+  color: gray;
+  font-size: 12px;
+  }
+
+p.card-text-left {
+  color: gray;
+  font-size: 14px;
+  }
+
+p.card-body-info {
+    padding-left: 12px;
+    color: gray;
+    font-size: 14px;
+}
