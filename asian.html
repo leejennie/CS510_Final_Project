@@ -1,0 +1,357 @@
+<!-- This is the home page of the project-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="asian_style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Used this outside library to implement the stars for the ratings -->
+
+    <title>Portland Food App</title>
+  </head>
+  <body>
+
+    <!-- navbar start code-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
+        <a class="navbar-brand" href="#">PDX FOOD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/CS510_Final_Project/project.html">Home</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Types of Food
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="http://127.0.0.1:5500/CS510_Final_Project/american.html#">American</a>
+                <a class="dropdown-item" href="http://127.0.0.1:5500/CS510_Final_Project/asian.html">Asian</a>
+                <a class="dropdown-item" href="#">Mexican</a>
+                <a class="dropdown-item" href="#">Italian</a>
+                <a class="dropdown-item" href="#">Mediterranean</a>
+                <a class="dropdown-item" href="#">Russian</a>
+                <a class="dropdown-item" href="#">Bars</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Statistics</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      <!-- end of navbar code -->
+  
+      <!-- start of search bar code -->
+      <h2> Find a restaurant that suits your taste in Portland</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10">
+            <form class="card card-md">
+              <div class="card-body row align-items-center">
+                <div class="col">
+                  <input class="form-control form-control-md" type="search" placeholder="Search for Restaurant">
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-danger btn-success" type="submit">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <br>
+    <br>
+    <br>
+
+    <p class="heading">Top Asian Food in Portland, OR</p> 
+    <!-- Start of code for the list of top 10 American restaurants in Portland-->
+    <div class="card mb-3" style="max-width: 780px;">
+      <div class="row no-gutters">
+        <div class="col-sm-3">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/yd4iFaxxShz2yVIcvW_OqQ/348s.jpg" class="card-img" alt="card-image">
+        </div>
+        <div class="col-sm-9">
+          <div class="card-body row">
+            <div class="col">
+              <a class="card-title" href="https://restaurantguru.com/Master-Kong-Portland/menu" rel="noopener noreferrer" target="_blank" class="card-link"> 1. Master Kong</a>
+              <p class="card-text-left">Rating: 
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                276<br>$ Asian
+              </p>
+            </div>
+            <div class="col">
+              <p class="card-text-right">(971) 373-8248</br>8435 SE Division St</br>Southeast Portland</p>
+            </div>
+            <p class="card-body-info">Chinese food that features homemade dumplings. In addition to homemades dumplings, a large selection of soups, sitr-fry, and many other authentic dishes are offered.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/V3_1cKThaqcml8Fpi1BK7Q/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.burankopdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 2. Buranko</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  16<br>$$ Asian
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 241-2691</br>108 SW Pine Street</br>Old Town-Chinatown</p>
+              </div>
+              <p class="card-body-info">Buranko Cafe serves a blend of modern asian fusion comfort food, featuring Hawaiian poke, seasonal ramen to Thai, Korean and Japanese inspired street food.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/jtp9n8HTjid4lEeXlcKKiA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://khaomangai.com" rel="noopener noreferrer" target="_blank" class="card-link">3. Nong’s Khao Man Gai</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  1675<br>$$ Asian
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 740-2907</br>609 SE Ankeny Street</br>Lower Burnside</p>
+              </div>
+              <p class="card-body-info">Thai Chicken and Rice. Whole chicken that is cooked with aroma thai herbs that is served with Nong’s sauce, cucumbers and  cilantro.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/9m-lciDcKbAOAvhh0uWAvw/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://luclackitchen.com" rel="noopener noreferrer" target="_blank" class="card-link">4. Lúc Lác</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  3085<br>$$ Asian
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 222-0047</br>835 SW 2nd Ave</br>Downtown</p>
+              </div>
+              <p class="card-body-info">Popular counter-serve offering pho, banh mi & other Vietnamese favorites in a stylish setting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/PAm7_geSYpksi4s4YTilbg/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.wokshoppdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 5. WokShop Kitchen</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  259<br>$ Asian
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(971) 279-2207</br>2120 NE 82nd Ave</br>Madison - South</p>
+              </div>
+              <p class="card-body-info">WokShop Kitchen is dedicated to serving customers fine asian cuisine by using premium ingredients in all their sauces.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/HZPJ15U-_gK2Mp87lCOZMQ/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.weiweirestaurantpdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 6. Wei Wei - A Taste of Taiwan</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  237<br>$$ Asian
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 946-1732</br>7835 SE 13th Ave</br>Sellwood</p>
+              </div>
+              <p class="card-body-info">Creative Taiwanese noodle soups, baos, desserts & teas in an intimate space with yellow chairs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/ZiCYCS7YWWn6NjXQ7m7neg/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.facebook.com/ChimaekTown/" rel="noopener noreferrer" target="_blank" class="card-link"> 7. Chimaek Town</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  26<br>$$ Asian
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 242-6406</br>2330 NW Thurman Street</br>Northwest</p>
+              </div>
+              <p class="card-body-info">Specializes in Korean fried chicken, but there are an assortment of various kinds of korean food such as rice cakes, soup, hot pot, and many other tasty dishes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/tPf-awEBLO45tnAUlwUmCw/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://qmenu.us/#/bep-vietnamese-kitchen" rel="noopener noreferrer" target="_blank" class="card-link"> 8. Bep</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  2<br>$$ Asian
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 746-5844</br>230 NW Lost Springs</p>
+              </div>
+              <p class="card-body-info">Specializing in Vietnamese cuisine, Bep offers a assortment of food that will cater to everyone's taste.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/zxPUDbsx2JsrkYrvZYy6Dg/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://butterflybellyme.com" rel="noopener noreferrer" target="_blank" class="card-link"> 9. Butterfly Belly Asian Cuisine</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  447<br>$$ Asian
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 788-7327</br>323 NW Park Ave</br>Pearl District</p>
+              </div>
+              <p class="card-body-info">Cheery, tidy eatery serving a wide variety of noodle & rice dishes, plus cocktails, beer & wine.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/YUeAK8XWZ97HSExE7YXHvA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://kennys-noodle-house-portland.sites.tablehero.com" rel="noopener noreferrer" target="_blank" class="card-link"> 10. Kenny’s Noodle House</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  497<br>$ American
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 771-6868</br>8305 SE Powell Blvd</br>Powellhurst - Glibert</p>
+              </div>
+              <p class="card-body-info">Traditional eatery whipping up noodle soups & other classic Chinese grub in a utilitarian setting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
