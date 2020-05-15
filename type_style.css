@@ -24,7 +24,6 @@ p.heading {
 div.mb-3 {
   margin: 0 auto; 
   margin-bottom: 10px;
-  /*border-color: #dc3545;*/
 }
 
 a.card-title {
@@ -46,16 +45,16 @@ img.card-img {
 p.card-text-right {
   text-align: right;
   color: gray;
-  font-size: 12px;
+  font-size: 14px;
   }
 
 p.card-text-left {
   color: gray;
-  font-size: 14px;
+  font-size: 16px;
   }
 
 p.card-body-info {
     padding-left: 12px;
     color: gray;
-    font-size: 14px;
+    font-size: 16px;
 }
