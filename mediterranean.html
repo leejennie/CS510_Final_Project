@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="type_style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Used this outside library to implement the stars for the ratings -->
+
+    <title>Portland Food App</title>
+  </head>
+  <body>
+
+    <!-- navbar start code-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
+        <a class="navbar-brand" href="https://leejennie.github.io/project.html">PDX FOOD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://leejennie.github.io/project.html">Home</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Types of Food
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://leejennie.github.io/american.html">American</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/asian.html">Asian</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/mexican.html">Mexican</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/italian.html">Italian</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/mediterranean.html">Mediterranean</a>
+                <a class="dropdown-item" href="#">European</a>
+                <a class="dropdown-item" href="#">Bars</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Statistics</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      <!-- end of navbar code -->
+  
+      <!-- start of search bar code -->
+      <h2> Find a restaurant that suits your taste in Portland</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10">
+            <form class="card card-md">
+              <div class="card-body row align-items-center">
+                <div class="col">
+                  <input class="form-control form-control-md" type="search" placeholder="Search for Restaurant">
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-danger btn-success" type="submit">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <br>
+    <br>
+    <br>
+
+    <p class="heading">Top Mediterranean Food in Portland, OR</p> 
+    <!-- Start of code for the list of top 10 American restaurants in Portland-->
+    <div class="card mb-3" style="max-width: 780px;">
+      <div class="row no-gutters">
+        <div class="col-sm-3">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/BDWvfxdi5uO19G9_c1T82A/348s.jpg" class="card-img" alt="card-image">
+        </div>
+        <div class="col-sm-9">
+          <div class="card-body row">
+            <div class="col">
+              <a class="card-title" href="https://www.mediterraneanexplorationcompany.com" rel="noopener noreferrer" target="_blank" class="card-link"> 1. Mediterranean Exploration Company</a>
+              <p class="card-text-left">Rating: 
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half"></span>
+                765<br>$$ Mediterranean
+              </p>
+            </div>
+            <div class="col">
+              <p class="card-text-right">(503) 222-0906</br>333 NW 13th Ave</br>Pearl District</p>
+            </div>
+            <p class="card-body-info">Upscale Mediterranean-Middle Eastern fare & cocktails served in an industrial-chic setting.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/mSXCBz3PABsW1cJ3KHfo_Q/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://nicholasrestaurant.com" rel="noopener noreferrer" target="_blank" class="card-link"> 2. Nicolas Restaurant</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  1144<br>$$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 235-5123</br>318 SE Grand Ave</br>Industrial District</p>
+              </div>
+              <p class="card-body-info">Family-run cafe serving kebabs, fresh pitas & other Lebanese dishes in a small, no-frills room.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/k8G1ZwEt2FsgyT9CxTRStw/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.tangierrestaurant.org" rel="noopener noreferrer" target="_blank" class="card-link">3. Tangier Moroccan & Mediterranean Cuisine</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  365<br>$$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 459-4441</br>221 SW Pine Street</br>Old Town-Chinatown</p>
+              </div>
+              <p class="card-body-info">Contemporary bar/eatery offering Moroccan & Mediterranean classics, plus vegan & vegetarian options.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/xqrUD0ZU3BP_WvhHRNE8fA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://darsalamportland.com" rel="noopener noreferrer" target="_blank" class="card-link">4. DarSalam</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  432<br>$$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 206-6148</br>2921 NE Alberta Street</br>lberta Arts District</p>
+              </div>
+              <p class="card-body-info">Middle Eastern eats with gluten-free options in a cozy wood-beamed house featuring photos & a patio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/m4D8IHb1IMWtq0NEixLjZw/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://habibirestaurantpdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 5. Habibi Restaurant</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  664<br>$$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 274-0628</br>1012 SW Morrison Street</br>Downtown</p>
+              </div>
+              <p class="card-body-info">Traditional Lebanese cuisine in a stylish, brick-walled space with a cocktail bar & belly dancing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/3hkW0dy5ARhHyHnjwyrXDw/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.thegyrohouse.com" rel="noopener noreferrer" target="_blank" class="card-link"> 6. Gyro House Mediterranean Grill</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  281<br>$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 206-8000</br>8140 SE Cora Street</br>Foster-Powell</p>
+              </div>
+              <p class="card-body-info">Counter-serve joint offering gyros & other Greek & Middle Eastern favorites in a relaxed atmosphere.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/0JAp1u9ZL_QTOS1lAxE8LA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://riyadhslebaneserestaurant.com/10739" rel="noopener noreferrer" target="_blank" class="card-link"> 7. Riyadh’s Lebanese Restaurant</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  362<br>$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 235-1254</br>1318 SE Hawthorne Blvd</br>Ladd's Addition</p>
+              </div>
+              <p class="card-body-info">Small, colorful joint offers familiar Lebanese fare such as falafel & kebabs in a comfortable room.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/kifZiRHDxTnf12h4AFRp8Q/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://zaatarnw.com" rel="noopener noreferrer" target="_blank" class="card-link"> 8. Zaatar Fine Lebanese Cuisine</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  288<br>$$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 477-8237</br>1037 NW Flanders Street<br>Pearl District</p>
+              </div>
+              <p class="card-body-info">Easygoing, airy restaurant offering traditional Lebanese cuisine made with market-fresh ingredients.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/wb-F1dnUyL0l98ChMKs_4A/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://aladdinscafepdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 9. Aladdin’s Cafe Restaurant</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  282<br>$$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 546-7686</br>6310 NE 33rd Ave</br>Concordia</p>
+              </div>
+              <p class="card-body-info">Bright, comfortable Syrian & Mediterranean restaurant known for its traditional mezes & lamb dishes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/qywZW5qwEeSnhf9lA3thEQ/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.tuskpdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 10. Tusk</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  481<br>$$ Mediterranean
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 894-8082</br>2448 East Burnside Street</br>Buckman</p>
+              </div>
+              <p class="card-body-info">Buzzy, light-filled standout serving creative Middle Eastern fare plus craft cocktails.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
