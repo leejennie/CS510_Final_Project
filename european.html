@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="type_style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Used this outside library to implement the stars for the ratings -->
+
+    <title>Portland Food App</title>
+  </head>
+  <body>
+
+    <!-- navbar start code-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
+        <a class="navbar-brand" href="https://leejennie.github.io/project.html">PDX FOOD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://leejennie.github.io/project.html">Home</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Types of Food
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://leejennie.github.io/american.html">American</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/asian.html">Asian</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/mexican.html">Mexican</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/italian.html">Italian</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/mediterranean.html">Mediterranean</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/european.html">European</a>
+                <a class="dropdown-item" href="#">Bars</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Statistics</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      <!-- end of navbar code -->
+  
+      <!-- start of search bar code -->
+      <h2> Find a restaurant that suits your taste in Portland</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10">
+            <form class="card card-md">
+              <div class="card-body row align-items-center">
+                <div class="col">
+                  <input class="form-control form-control-md" type="search" placeholder="Search for Restaurant">
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-danger btn-success" type="submit">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <br>
+    <br>
+    <br>
+
+    <p class="heading">Top European Food in Portland, OR</p> 
+    <!-- Start of code for the list of top 10 American restaurants in Portland-->
+    <div class="card mb-3" style="max-width: 780px;">
+      <div class="row no-gutters">
+        <div class="col-sm-3">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/ObA0WUg6-rt00emQHusfbw/348s.jpg" class="card-img" alt="card-image">
+        </div>
+        <div class="col-sm-9">
+          <div class="card-body row">
+            <div class="col">
+              <a class="card-title" href="https://swisshibiscus.com" rel="noopener noreferrer" target="_blank" class="card-link"> 1. Swiss Hibiscus</a>
+              <p class="card-text-left">Rating: 
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                502<br>$$ European
+              </p>
+            </div>
+            <div class="col">
+              <p class="card-text-right">(503) 477-9224<br>4950 NE 14th Ave<br>King</p>
+            </div>
+            <p class="card-body-info">Classic Swiss dishes & other European eats whipped up in a petite, low-key bistro with a patio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/gD_8nfSqI9A_QXZzhu3tcA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.kachkapdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 2. Kachka</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  879<br>$$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 235-0059</br>960 SE 1th Ave</br>Buckman</p>
+              </div>
+              <p class="card-body-info">Lively spot for refined Russian fare & house-infused vodkas in kitschy surroundings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/bb24Ri1WJr6UXBcAaceqOA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://www.ottoandanitas.com" rel="noopener noreferrer" target="_blank" class="card-link"> 3. Otto & Anita's European Restaurant</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  224<br>$$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 452-1411</br>3025 SW Canby Street</br>Multnomah Village</p>
+              </div>
+              <p class="card-body-info">Schnitzel, pickle soup & other old-school German dishes are featured at this family-run hideaway.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/oa0_bsy4Z_Ce90wppeBz9w/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://kargigogo.com" rel="noopener noreferrer" target="_blank" class="card-link"> 4. Kargi Gogo</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  109<br>$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 764-9552</br>3039 NE Alberta Street</br>Alberta Arts District</p>
+              </div>
+              <p class="card-body-info">Kargi Gogo is an intimate, casual counter-service restaurant in Portland’s Alberta Arts District. 
+                  The menu focuses on some of the traditional Georgian foods, as well as new interpretations of those dishes. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/1axVbLierehYS8AIJY7gJQ/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.facebook.com/bosniarestaurant/" rel="noopener noreferrer" target="_blank" class="card-link"> 5. Bosnia Restaurant</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  48<br>$$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 882-3440</br>2902 NEBurton Rd</p>
+              </div>
+              <p class="card-body-info">Welcoming spot serving a spartan menu of Bosnian eats including pita sandwiches & beef rolls.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/lvJFJmuBARvI7Ch5S0z2kQ/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.broderpdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 6. Broder Café</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  1291<br>$$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 736-3333</br>2508 SE Clinton Street</br>Hosford-Abernethy</p>
+              </div>
+              <p class="card-body-info">Breakfast dishes & Bloody Marys are especially popular at this small, simple Scandinavian eatery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/k5n4lsO_pIKph4U_fZxm6Q/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.facebook.com/EuroDish/" rel="noopener noreferrer" target="_blank" class="card-link"> 7. Eurodish</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  122<br>$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(971) 344-3704</br>1331 N Killingsworth Street</br>Overlook</p>
+              </div>
+              <p class="card-body-info">European food cart on Killingsworth that speacial lizes in perogies and other delicious european food.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/EPkSWft6ag04sF6EOUgXLg/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://www.stammtischpdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 8. Stammtisch</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  442<br>$$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 206-7983</br>401 NE 28th Ave</br>Kerns</p>
+              </div>
+              <p class="card-body-info">Warm, casual German eatery & bar offering a menu of classic dishes, plus lagers, ales & bocks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/VUvugaoKS4ym7-IZNp0yCg/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://ingridsscandinavianfood.com" rel="noopener noreferrer" target="_blank" class="card-link"> 9. Ingrid's Scandinavian Food</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  102<br>$$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 744-0457</br>209 7th Street</br>Oregon City</p>
+              </div>
+              <p class="card-body-info">An array of Scandinavian classic dishes, wraps, & cocktails in a rustic space with counter seating.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/VCCk-GaBia6oV0iMvAHzlg/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://www.edelweissdeli.com" rel="noopener noreferrer" target="_blank" class="card-link">10. Edelweiss Sausage Co & Delicatessen</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  248<br>$ European
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 238-4411</br>3119 SE 12th Ave</br>Brooklyn</p>
+              </div>
+              <p class="card-body-info">CThis retailer of housemade sausages & charcuterie also sells a wide range of European groceries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
