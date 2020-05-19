@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="type_style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Used this outside library to implement the stars for the ratings -->
+
+    <title>Portland Food App</title>
+  </head>
+  <body>
+
+    <!-- navbar start code-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
+        <a class="navbar-brand" href="https://leejennie.github.io/project.html">PDX FOOD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://leejennie.github.io/project.html">Home</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Types of Food
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://leejennie.github.io/american.html">American</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/asian.html">Asian</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/mexican.html">Mexican</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/italian.html">Italian</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/mediterranean.html">Mediterranean</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/european.html">European</a>
+                <a class="dropdown-item" href="https://leejennie.github.io/bars.html">Bars</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Statistics</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      <!-- end of navbar code -->
+  
+      <!-- start of search bar code -->
+      <h2> Find a restaurant that suits your taste in Portland</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10">
+            <form class="card card-md">
+              <div class="card-body row align-items-center">
+                <div class="col">
+                  <input class="form-control form-control-md" type="search" placeholder="Search for Restaurant">
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-danger btn-success" type="submit">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <br>
+    <br>
+    <br>
+
+    <p class="heading">Top Bars Food in Portland, OR</p> 
+    <!-- Start of code for the list of top 10 American restaurants in Portland-->
+    <div class="card mb-3" style="max-width: 780px;">
+      <div class="row no-gutters">
+        <div class="col-sm-3">
+          <img src="https://s3-media0.fl.yelpcdn.com/bphoto/IUJBup9rZ57OT0X9P2BSMw/348s.jpg" class="card-img" alt="card-image">
+        </div>
+        <div class="col-sm-9">
+          <div class="card-body row">
+            <div class="col">
+              <a class="card-title" href="https://www.teardroplounge.com" rel="noopener noreferrer" target="_blank" class="card-link"> 1. Teardrop Lounge</a>
+              <p class="card-text-left">Rating: 
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half"></span>
+                786<br>$$ Bars
+              </p>
+            </div>
+            <div class="col">
+              <p class="card-text-right">(503) 445-8109<br>1015 NW Everett Street<br>Pearl District</p>
+            </div>
+            <p class="card-body-info">Classic & inventive cocktails with top-shelf spirits by talented mixologists in a chic, buzzy space.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/MAu-g-bT35-jbrFYU2d9VA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.psychicbarpdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 2. Psychic Bar</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  48<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 621-9251</br>580 SW 12th Ave</br>Downtown</p>
+              </div>
+              <p class="card-body-info">A low-key, neighborhood bar inside an old Victorian house with spacious outdoor seating, serving Indian-inspired fare with a thoughtful selection of beer, wine and spirits.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/UL0lhdefenxI4nPrZahi3w/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://bibleclubpdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 3. Bible Club</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  217<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(971) 279-2198</br>6716 SE 16th Ave</br>Sellwood</p>
+              </div>
+              <p class="card-body-info">Antiques-filled speakeasy serving inventive & classic cocktails plus small bites in stylish digs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/hfUVY6vlJdq4OUMZaBPueQ/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.revolutionhall.com" rel="noopener noreferrer" target="_blank" class="card-link"> 4. Revolution Hall Rooftop Bar</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  80<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(971) 808-5094</br>1300 SE Stark Street</br>Buckman</p>
+              </div>
+              <p class="card-body-info">Scenic rooftop deck open seasonally, offering draft beer, cocktails & bar bites with a fun vibe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/IYl6Q0WNnN526vZ2rAz-zA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.somedaypdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 5. Someday</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  16<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">3634 SE Division St</br>Richmond</p>
+              </div>
+              <p class="card-body-info">Bringing hardcore cocktail talent to Division, with a chic-but-welcoming atmosphere, a patio and food cart pod, and a 
+                  cocktail menu incorporating lesser-known classics and specials from far-flung guest bartenders.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/YNs7lohbRp-rlaolEEQbYg/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="hhttps://www.baileystaproom.com" rel="noopener noreferrer" target="_blank" class="card-link"> 6. Bailey's Taproom</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  679<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 295-1004</br>213 SW Broadway</br>Downtown</p>
+              </div>
+              <p class="card-body-info">Laid-back, well-lit bar featuring rotating beer taps displayed on electronic board & board games. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/b4T5KB38g3S4_Jwa2lVAug/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://pepelemokopdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 7. Pépé le Moko</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  443<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 546-8537</br>Located in Ace Hotel Portland</br>Downtown</p>
+              </div>
+              <p class="card-body-info">Intimate spot serving oysters, assorted gourmet bites & a menu of creative house cocktails.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/VwkXkxkDOfCOSn5dx80KNQ/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="http://lulubarpdx.com" rel="noopener noreferrer" target="_blank" class="card-link"> 8. LULU</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  70<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">726 SE Grande Ave</br>Industrial District</p>
+              </div>
+              <p class="card-body-info">Contemporary bar featuring a wood-dominated interior & a menu of Vietnamese food & fried chicken.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/AbPxVLbufkJ48DoO7sOgrA/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://thehoxton.com/oregon/portland/restaurants-and-bars/basement-bar" rel="noopener noreferrer" target="_blank" class="card-link"> 9. 2NW5 Basement Bar - The Hoxton</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star-half"></span>
+                  26<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(503) 770-0400</br>Located in The Hoxton - Portland</br>Old Town-Chinatown</p>
+              </div>
+              <p class="card-body-info">Discreet basement bar that serves inventive cocktails.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 780px;">
+        <div class="row no-gutters">
+          <div class="col-sm-3">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/YLY1-vHX3X5KqGBE9LS1nQ/348s.jpg" class="card-img" alt="card-image">
+          </div>
+          <div class="col-sm-9">
+            <div class="card-body row">
+              <div class="col">
+                <a class="card-title" href="https://www.tbmpdx.com" rel="noopener noreferrer" target="_blank" class="card-link">10. There Be Monsters</a>
+                <p class="card-text-left">Rating: 
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  92<br>$$ Bars
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text-right">(971) 319-6983</br>1308 SE Morrison Street</br>Buckman</p>
+              </div>
+              <p class="card-body-info">Craft cocktails, British-style pub fare & shuffleboard offered in a hip, laid-back atmosphere.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
