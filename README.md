@@ -2,6 +2,6 @@
 
 This is a webpage the displays some of the most popular foods/restaurants in Portland, Oregon.
 
-Inspiration for this website was inspired by Yelp.
+Inspiration for this website comes from Yelp.
 
 The wesite can be found here: https://leejennie.github.io/project.html
