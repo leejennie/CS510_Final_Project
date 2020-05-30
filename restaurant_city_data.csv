@@ -1,0 +1,25 @@
+﻿City,Table Turn Time(min),QSR Avg Ticket Size(dollars),FSR Avg Ticket Size(dollars),Percent off Premise 
+Seattle,45,19.77,47.69,2.740
+Portland,43,13.45,35.75,4.660
+San Francisco,42,23.22,70.48,9.560
+Los Angeles,40,24.52,57.22,14.65
+San Diego,51,23.35,44.27,7.110
+Las Vegas,32,23.40,36.37,7.730
+Denver,38,23.39,34.48,5.680
+San Antonio,45,17.13,41.65,1.540
+Austin,37,22.71,37.34,4.360
+Houston,42,21.28,47.21,5.510
+New Orleans,44,28.34,55.80,4.000
+Chicago,42,19.24,53.15,7.640
+Nashville,53,20.96,50.27,1.840
+Atlanta,34,17.66,32.12,5.180
+Columbus ,49,19.67,29.94,26.63
+Cambridge ,39,15.43,41.09,8.150
+Boston,48,18.29,63.45,2.730
+Brooklyn,42,24.23,47.82,16.15
+New York ,43,16.96,60.80,9.310
+Philadelphia,50,18.81,52.03,4.200
+Baltimore,42,22.08,37.91,7.010
+Washington DC,58,19.58,54.54,6.570
+Tampa,47,23.12,36.78,8.590
+Miami,43,19.57,52.3,17.87
