@@ -1,4 +1,4 @@
-﻿City,Table Turn Time(min),QSR Avg Ticket Size(dollars),FSR Avg Ticket Size(dollars),Percent off Premise 
+﻿City,TableTurnTime,QSRAvgTicketSize,FSRAvgTicketSize,PercentOffPremise 
 Seattle,45,19.77,47.69,2.740
 Portland,43,13.45,35.75,4.660
 San Francisco,42,23.22,70.48,9.560
