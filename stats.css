@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.0em;
+    font-family: sans-serif;
+  }
+
+.grid-container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 50% 50%;
+    padding-right: 65px;
+}
+
+
