@@ -7,8 +7,15 @@
 .grid-container {
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     padding-right: 65px;
 }
 
+p {
+    font-size: 12px;
+    text-align: left;
+    color: gray;
+}
 
+/* Complete */
